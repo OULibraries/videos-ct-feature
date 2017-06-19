@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Videos CT Feature feature.
+ */
+
+include_once 'videos_ct_feature.features.inc';
