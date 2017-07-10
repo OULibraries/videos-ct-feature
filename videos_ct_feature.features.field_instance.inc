@@ -142,7 +142,7 @@ function videos_ct_feature_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_hp_carousel_start',
-    'label' => 'hp carousel start',
+    'label' => 'Date to stay on carousel',
     'required' => 0,
     'settings' => array(
       'default_value' => 'now',
@@ -339,8 +339,8 @@ function videos_ct_feature_field_default_field_instances() {
   // Included for use with string extractors like potx.
   t('Add to News & Events Carousel');
   t('Check this box if you want this video to be displayed on the carousel on the News & Events page.');
+  t('Date to stay on carousel');
   t('Video Thumbnail');
-  t('hp carousel start');
   t('video');
 
   return $field_instances;
